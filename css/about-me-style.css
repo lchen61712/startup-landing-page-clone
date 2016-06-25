@@ -1,0 +1,68 @@
+body{
+  background:pink;
+}
+#masthead-heading{
+  text-align: center;
+  margin-top: -2px;
+  color: #E5E4D7;
+  text-shadow: 2px 2px black, 0 2px black, 2px 0 black, 0 2px black;
+}
+.masthead-intro{
+  text-align: center; 
+  margin-bottom: 16px;
+  color: #E5E4D7;
+  text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+}
+.masthead{
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 150px 0;
+  background-image: url("http://i1072.photobucket.com/albums/w378/ProMise9k/photo-1447958374760-1ce70cf11ee3_zpsahtcbuce.jpg");
+  background-size: 2000px 1500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 2px #000000
+}
+#heading{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.body1,
+.body2{
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.body3{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img{
+  display: inline-block;
+  width: 40px;
+  margin-top: -24px;
+  margin-right: 24px;
+}
+.links{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+@media (max-width: 500px) {
+  .masthead{
+    background-image:none;
+  }
+  body{
+    background-color:white;
+  }
+  .masthead-intro{
+    color:darkgrey;
+    font-size: 16px;
+  }
+  #masthead-heading{
+    color:darkgrey;
+    font-size:16px;
+  }
+  #heading{
+    font-size:14px;
+  }
+  footer img{
+    width:25px;
+  }
+}

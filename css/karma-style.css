@@ -1,0 +1,116 @@
+body{
+	font-family:'Roboto', sans-serif;
+	margin:0
+}
+#karma{
+	width:1.5em;
+	margin-top:1.2em;
+	margin-right:27em;
+}
+.header{
+	background-color:white;
+	text-align: center;
+	position:fixed;
+	width:100%;
+	top:0;
+	padding-bottom:1.5em;
+}
+.nav{
+	padding-right:1.5em;
+	text-decoration:none;
+	color:grey;
+
+}
+.nav:visited{
+	color:grey;
+}
+.nav:hover{
+	color:black;
+}
+.bg{
+	background-image:url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	color:white;
+	text-align: center;
+	padding:80px 200px 250px 200px;
+	margin-right:-0.5em;
+	margin-left:-0.5em;
+	margin-top:-6em;
+}
+#intro{
+	font-size:48px;
+	font-weight:lighter;
+	padding-top:6em;
+}
+#wifi{
+	font-size:150%;
+	font-weight:lighter;
+	margin-top:-0.55em;
+}
+.more{
+	color:black;
+	background-color:orangered;
+	display:inline-block;
+	border-radius:5px;
+}
+.more a{
+	color:white;
+	text-decoration:none;
+	padding: 1em;
+	display:inline-block;
+}
+.more a:visited{
+	color:white;
+}
+.more:hover a{
+	color:black;
+}
+.more:hover{
+	background-color:red;
+}
+.icons{
+	margin:auto;
+	width:80%;
+}
+.icons div{
+	text-align:center;
+	display:inline-block;
+	width:33%;
+	padding:2em;
+	box-sizing:border-box;
+	padding-bottom:5em;
+}
+.icons div img{
+	padding:1em 2em;
+	margin:auto;
+	width:70%;
+}
+.icon-info{
+	text-align:center;
+	font-size:44px;
+	font-weight: lighter;
+	padding-top:1.75em;
+}
+footer{
+	padding:5em 8.5em;
+	text-align: center;
+	border-top:1px solid lightgrey;
+	width:55%;
+	margin:auto;
+}
+#social{
+	font-weight:lighter;
+}
+footer img{
+	display:inline-block;
+	max-width: 1.2%;
+	padding-right:0.9em;
+	padding-left:1.4em;
+}
+#copyright{
+	color:lightgrey;
+	font-size:14px;
+	padding-top:1em;
+}
